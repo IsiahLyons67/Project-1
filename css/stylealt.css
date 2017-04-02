@@ -1,7 +1,3 @@
-body{
-   background-image:url('../img/large-banner-image.png');
-}
-
 h1 {
    font: 80px Pacifico, sans-serif;
    font-weight: 400;
@@ -11,6 +7,6 @@ h1 {
 
 p {
    font: 48px Raleway, sans-serif;
-   font-weight: 300;
+   font-weight: 200;
    text-align: center;
 }
