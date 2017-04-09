@@ -5,14 +5,21 @@ body{
 }
 
 span {
-   vertical-align:-10px;
+   vertical-align:-16px;
+   display: inline-block;
+   font: 60px Pacifico, sans-serif;
+   font-weight: 400;
+}
+
+img {
+  display: inline-block;
+  margin: 17px;
 }
 
 h1 {
-   font: 60px Pacifico, sans-serif;
-   font-weight: 400;
    margin: 75px 0;
    text-align: center;
+
 }
 
 h2 {
@@ -23,32 +30,47 @@ h2 {
 
 p {
    font: 36px Raleway, sans-serif;
-   font-weight: 100;
+   font-weight: 300;
    text-align: center;
-   position: relative;
-   top: -40px;
-}
-
-
-.content-alt  {
-   position: relative;
-   text-align: left;
-   margin-left: 1820px;
-   top: -400px
-}
-
-.content  {
-   position: relative;
-   text-align: left;
-   margin-left: 2730px;
-   top: -600px
+   line-height: 10px
 }
 
 .Phone  {
    text-align: center;
    position: relative;
-   top: 60px;
+   top: 55px;
 }
+
+
+
+.content-alt  {
+   text-align:left;
+   position: relative;
+   margin-left: 300px;
+   top: -425px;
+}
+
+.content-alt2  {
+   text-align:left;
+   position: relative;
+   margin-left: 300px;
+   top: -490px;
+}
+
+.content  {
+   text-align:left;
+   position: relative;
+   margin-left: 1000px;
+   top: -541px;
+}
+
+.content2  {
+   text-align:left;
+   position: relative;
+   margin-left: 1000px;
+   top: -606px;
+}
+
 
 .Image  {
    text-align: center;
