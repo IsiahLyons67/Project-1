@@ -1,14 +1,18 @@
-body{
+header{
+   height:900px;
    background-image:url('../img/large-banner-image.png');
    background-repeat: no-repeat;
    background-position: center top;
 }
 
+
 span {
-   vertical-align:-16px;
-   display: inline-block;
    font: 60px Pacifico, sans-serif;
    font-weight: 400;
+}
+
+.Header-Type{
+   vertical-align: -16px
 }
 
 img {
@@ -17,60 +21,73 @@ img {
 }
 
 h1 {
-   margin: 75px 0;
    text-align: center;
-
+   position: relative;
+   top: 62px;
+   right: 13px;
 }
 
 h2 {
    font: 22px Raleway, sans-serif;
    font-weight: 700;
-
 }
 
 p {
    font: 36px Raleway, sans-serif;
    font-weight: 300;
    text-align: center;
-   line-height: 10px
+   position: relative;
+   top: 90px;
 }
 
 .Phone  {
    text-align: center;
    position: relative;
-   top: 55px;
+   top: -567px;
+}
+
+.Down-Arrow  {
+   text-align: center;
+   position: relative;
+   top: -574px;
 }
 
 
 
 .content-alt  {
-   text-align:left;
-   position: relative;
-   margin-left: 300px;
-   top: -425px;
 }
 
 .content-alt2  {
-   text-align:left;
-   position: relative;
-   margin-left: 300px;
-   top: -490px;
+   display: none
+
 }
 
 .content  {
-   text-align:left;
-   position: relative;
-   margin-left: 1000px;
-   top: -541px;
+   display: none
+
 }
 
 .content2  {
-   text-align:left;
-   position: relative;
-   margin-left: 1000px;
-   top: -606px;
+   display: none
 }
 
+.other  {
+   text-align: center;
+}
+
+.near-bottom  {
+   text-align: center;
+}
+
+footer{
+   word-spacing: 30px;
+}
+
+
+.footer{
+   font: 16px HelveticaNeue, sans-serif;
+   font-weight: 400;
+}
 
 .Image  {
    text-align: center;
